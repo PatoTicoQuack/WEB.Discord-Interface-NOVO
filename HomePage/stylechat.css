@@ -1,0 +1,383 @@
+body{
+    margin: 0;
+}
+.conteudo{
+    display: flex;
+    flex-direction: row;
+    height: 96%;
+}
+.servidores{
+    background-color: #1E1F22;
+    height: 100%;
+    width: 6%;
+}
+.barra{
+    background-color: #1E1F22;
+    height: 4%;
+    width: 100%;
+}
+.amigos{
+    text-align: center;
+    background-color: #2B2D31;
+    height: 100%;
+    width: 100%;
+}
+.chat{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #313338;
+    height: 100%;
+    width: 1047px;
+}
+.escrita{
+    color: #949BA4;
+    margin-left: 17px;
+    margin-top: 0px; 
+    text-align: start;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+.logo{
+    height: 10%;
+    width: auto;
+    margin-top: 0px;
+    margin-left: 8px;
+}
+.barrinha{
+    margin-left: 7px;
+}
+.ga{
+    height: 9%;
+    width: 70%;
+    border-radius: 50%;
+    margin-left: 11px;
+}
+.gaules{
+    margin-top: 10px;
+    height: 9%;
+    width: 70%;
+    border-radius: 50%;
+    margin-left: 11px;
+}
+.botoeserver{
+    margin-top: 4   px;
+    width: 90%;
+    height: 21.5%;
+    margin-left: 4px;
+}
+.procurar{
+    background-color: #1E1F22;
+    color: #DBDEE1;
+    width: 92%;
+    height: 5%;
+    margin-top: 12px;
+    border-radius: 4px;
+}
+.procurar::placeholder{
+    color: #949598;
+    padding-left: 5px;
+}
+.maisbotoes{
+    height: 32%;
+    width: 98%;
+    margin-top: 10px;
+}
+.eric{
+    font-size: 17px;
+    color: #FFFFFF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+.matrix{
+    font-size: 17px;
+    color: #94999D;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+.sherlock{
+    font-size: 17px;
+    color: #94999D;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+.imagem{
+    height: 5%;
+    width: 14%;
+    padding-right: 10px;
+    border-radius: 50%;
+}
+.amigo{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    align-items: center;
+}
+.perfil{
+    width: 100%;
+    height: 9.8%;
+    background-color: #232428;
+    margin-bottom: 190px;
+}
+.grande{
+    margin-bottom: 200px;
+    width: 19%;
+    height: 91%;
+}
+.agilizar{
+    width: 95%;
+    height: 86%;
+    margin-top: 5px;
+    margin-left: 2px;
+}
+.filete{
+    margin-top: -8px;
+    width: 100%;
+    height: 2px;
+    background-color: #2A2B30;
+}
+.fotoeric{
+    width: 26px;
+    height: 26px;
+    margin-top: 15px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+.buscar{
+    width: 140px;
+    height: 27px;
+    background-color: #1E1F22;
+    color: #DBDEE1;
+    border-radius: 4px;
+    margin-left: 800px; 
+    margin-top: 12px; 
+    position: fixed;
+}
+.buscar::placeholder{
+    color: #949598;
+    padding-left: 5px;
+}
+.nomechat{
+    margin-left: 60px;
+    margin-top: -25px;
+    color: #F2F3F5;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 19px;
+}
+.filetinho{
+    margin-top: 13px;
+    margin-left: 150px;
+    width: 2px;
+    height: 30px;
+    position: fixed;
+    background-color: #35363C;
+}
+.nomechat2{
+    margin-left: 165px;
+    margin-top: 20px;
+    color: #949598;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    background-color: #2B2D31;
+    width: 50px;
+    height: 20px;
+    border-radius: 30%;
+    position: fixed;
+}
+.nomechat3{
+    margin-left: 220px;
+    margin-top: 20px;
+    color: #949598;
+    position: fixed;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.botoeschat{
+    width: 220px;
+    height: 40px;
+    margin-left: 570px;
+    margin-top: 5px;
+    position: fixed;
+}
+.botoeschatplus{
+    width: 85px;
+    height: 32px;
+    margin-left: 950px;
+    margin-top: 10px;
+    position: fixed;
+}
+.bolinha{
+    position: fixed;
+    width: 15px;
+    height: 15px;
+    border-radius: 6px;
+    margin-left: 35px;
+    margin-top: 29px;
+}
+.mensagens{
+    margin-top: 540px;
+    margin-left: 20px;
+    width: 1000px;
+    height: 50px;
+    border-radius: 7px;
+    position: fixed;
+    background-color: #383A40;
+    color: #DBDEE1;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    padding-left: 50px; 
+    padding-right: 185px;
+}
+.mensagens::placeholder{
+    color: #6D6F78;
+    font-size: 18px;
+}
+.maislogo{
+    position: fixed;
+    width: 35px;
+    height: 35px;
+    margin-top: 550px;
+    margin-left: 30px;
+}
+.logofinalchat{
+    width: 170px;
+    height: 40px;
+    position: fixed;
+    margin-top: 545px;
+    margin-left: 845px;
+}
+.foto1pato{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-left: 17px;
+}
+.nome1pato{
+    margin-left: 80px;
+    margin-top: -45px;
+    color: #F2F3F5;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+}
+.horario1pato{
+    margin-left: 120px;
+    margin-top: -38px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    color: #949598;
+}
+.texto1pato{
+    color: #DBDEE1;
+    margin-left: 80px;
+    margin-top: -10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+}
+.foto1eric{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-left: 17px;
+}
+.nome1eric{
+    margin-left: 80px;
+    margin-top: -45px;
+    color: #F2F3F5;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+}
+.horario1eric{
+    margin-left: 160px;
+    margin-top: -38px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    color: #949598;
+}
+.texto1eric{
+    color: #DBDEE1;
+    margin-left: 80px;
+    margin-top: -10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+}
+.texto2eric{
+    color: #DBDEE1;
+    margin-left: 80px;
+    margin-top: -10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+}
+.texto3eric{
+    color: #DBDEE1;
+    margin-left: 80px;
+    margin-top: -10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+}
+.foto2pato{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-left: 17px;
+}
+.nome2pato{
+    margin-left: 80px;
+    margin-top: -45px;
+    color: #F2F3F5;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+}
+.horario2pato{
+    margin-left: 120px;
+    margin-top: -38px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    color: #949598;
+}
+.meme{
+    width: 100px;
+    height: 100px;
+    margin-left: 80px;
+    border-radius: 6px;
+}
+.texto2pato{
+    color: #DBDEE1;
+    margin-left: 80px;
+    margin-top: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+}
+.texto3pato{
+    color: #DBDEE1;
+    margin-left: 80px;
+    margin-top: -10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+}
+.foto2eric{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-left: 17px;
+}
+.nome2eric{
+    margin-left: 80px;
+    margin-top: -45px;
+    color: #F2F3F5;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+}
+.horario2eric{
+    margin-left: 160px;
+    margin-top: -38px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    color: #949598;
+}
+.texto4eric{
+    color: #DBDEE1;
+    margin-left: 80px;
+    margin-top: -10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+}

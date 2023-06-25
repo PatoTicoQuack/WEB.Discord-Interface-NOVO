@@ -1,0 +1,85 @@
+body{
+    background-size: 100% 100%;
+}
+.container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    width: 450px;
+    height: 410px;
+    background-color: #36393e;
+    border-radius: 10px;
+}
+.texto{
+    font-size: 25px;
+    padding-top: 40px;
+    padding-left: 95px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white
+}
+.second{
+    font-size: 15px;
+    margin-top: -10px;
+    margin-left: 65px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgrey
+}
+.terc{
+    font-size: 12px;
+    margin-top: 25px;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #B5BAC1
+}
+.email{
+    margin-left: 30px;
+    height: 35;
+    width: 390;
+    border-radius: 4px;
+    background-color: #1E1F22;
+    color: #FFF;
+}
+.quart{
+    font-size: 12px;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #B5BAC1
+}
+.password{
+    margin-left: 30px;
+    height: 35;
+    width: 390;
+    border-radius: 4px;
+    background-color: #1E1F22;
+    color: #FFF;
+}
+.quint{
+    font-size: 10px;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #01A5F7;
+}
+.entrar{
+    margin-top: 30px;
+    margin-left: 30px;
+    height: 35;
+    width: 390;
+    border-radius: 4px;
+    background-color: #5865F2;
+    color: white;
+}
+.sext{
+    font-size: 12px;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgrey;
+}
+.sext a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #01A5F7;
+    margin-left: 4px;
+}
